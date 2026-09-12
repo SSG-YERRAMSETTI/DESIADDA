@@ -48,6 +48,11 @@ export default function Navbar() {
             )}
           >
             <a href="#home" className="flex items-center gap-2" aria-label="DESI ADDA home">
+              <img
+                src={`${import.meta.env.BASE_URL}favicon.ico`}
+                alt=""
+                className="h-7 w-7 sm:h-8 sm:w-8 object-contain"
+              />
               <span className="font-display text-2xl font-bold tracking-tight text-cream">
                 DESI<span className="text-saffron"> ADDA</span>
               </span>
