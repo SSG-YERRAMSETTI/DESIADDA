@@ -144,11 +144,11 @@ export default function Hero() {
               className="relative"
             >
               <div className="absolute -inset-10 tandoor-glow blur-2xl opacity-70" />
-              <div className="relative h-[260px] w-[260px] sm:h-[360px] sm:w-[360px] lg:h-[440px] lg:w-[440px] rounded-full overflow-hidden ring-1 ring-gold/20 shadow-[0_30px_80px_-20px_rgba(0,0,0,0.85)] bg-charcoal/40 flex items-center justify-center">
+              <div className="relative h-[320px] w-[320px] sm:h-[440px] sm:w-[440px] lg:h-[560px] lg:w-[560px] flex items-center justify-center">
                 <img
                   src={`${import.meta.env.BASE_URL}favicon.ico`}
                   alt="DESI ADDA logo"
-                  className="w-2/3 h-2/3 object-contain"
+                  className="w-full h-full object-contain drop-shadow-[0_30px_60px_rgba(0,0,0,0.6)]"
                 />
               </div>
             </motion.div>
