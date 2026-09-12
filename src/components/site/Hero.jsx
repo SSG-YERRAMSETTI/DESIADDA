@@ -8,8 +8,6 @@ import {
 } from "framer-motion";
 import { ArrowDown, ArrowRight } from "lucide-react";
 import OrderButton from "./OrderButton";
-import { Image } from "@/components/ui/image";
-import { IMAGES } from "@/data/images";
 
 const SPICES = [
   { size: 10, color: "bg-saffron/70", x: "8%", y: "22%", delay: 0 },
@@ -119,7 +117,7 @@ export default function Hero() {
             transition={{ delay: 0.9 }}
             className="mt-6 max-w-xl mx-auto lg:mx-0 text-cream/70 text-lg leading-relaxed"
           >
-            From aromatic biryanis and Andhra curries to crispy dosas, Indo-Chinese
+            From aromatic biryanis, pulavs and Andhra curries to crispy dosas, Indo-Chinese
             favorites and traditional Indian desserts.
           </motion.p>
           <motion.div
@@ -146,11 +144,11 @@ export default function Hero() {
               className="relative"
             >
               <div className="absolute -inset-10 tandoor-glow blur-2xl opacity-70" />
-              <div className="relative h-[260px] w-[260px] sm:h-[360px] sm:w-[360px] lg:h-[440px] lg:w-[440px] rounded-full overflow-hidden ring-1 ring-gold/20 shadow-[0_30px_80px_-20px_rgba(0,0,0,0.85)]">
-                <Image
-                  src={IMAGES.heroHandi}
-                  alt="Steaming copper handi of Hyderabadi biryani"
-                  className="w-full h-full"
+              <div className="relative h-[260px] w-[260px] sm:h-[360px] sm:w-[360px] lg:h-[440px] lg:w-[440px] rounded-full overflow-hidden ring-1 ring-gold/20 shadow-[0_30px_80px_-20px_rgba(0,0,0,0.85)] bg-charcoal/40 flex items-center justify-center">
+                <img
+                  src={`${import.meta.env.BASE_URL}favicon.ico`}
+                  alt="DESI ADDA logo"
+                  className="w-2/3 h-2/3 object-contain"
                 />
               </div>
             </motion.div>
