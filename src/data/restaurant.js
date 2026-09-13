@@ -8,14 +8,14 @@ export const RESTAURANT = {
   // All "Order Online" buttons across the site use this value.
   cloverOrderUrl: "CLOVER_ORDER_URL",
   address: {
-    line1: "[Street Address]",
-    line2: "[City, State ZIP]",
+    line1: "2114 Holly Hall St",
+    line2: "Houston, TX 77054",
   },
-  phone: "[Phone]",
+  phone: "(713) 790-7888",
   email: "[Email]",
-  hours: "[Restaurant Hours]",
-  // Google Maps URL (directions) — replace when available.
-  mapsUrl: "",
+  hours: "Monday – Sunday: 8:00 AM – 1:00 AM",
+  // Google Maps directions link.
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=2114+Holly+Hall+St+Houston+TX+77054",
   social: {
     instagram: "#",
     facebook: "#",
