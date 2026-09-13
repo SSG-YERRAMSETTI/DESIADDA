@@ -144,7 +144,7 @@ export default function Hero() {
               className="relative"
             >
               <div className="absolute -inset-10 tandoor-glow blur-2xl opacity-70" />
-              <div className="relative h-[320px] w-[320px] sm:h-[440px] sm:w-[440px] lg:h-[560px] lg:w-[560px] flex items-center justify-center">
+              <div className="relative h-[320px] w-[320px] sm:h-[440px] sm:w-[440px] lg:h-[500px] lg:w-[560px] flex items-center justify-center">
                 <img
                   src={`${import.meta.env.BASE_URL}favicon.ico`}
                   alt="DESI ADDA logo"
